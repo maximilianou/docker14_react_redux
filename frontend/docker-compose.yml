@@ -2,8 +2,8 @@ version: '3.5'
 
 services:
 
-  react-docker:
-    container_name: react-docker 
+  react-redux-docker:
+    container_name: react-redux-docker 
     build:
       context: .
       dockerfile: Dockerfile
